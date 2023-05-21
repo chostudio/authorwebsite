@@ -1,0 +1,43 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: 0;
+}
+
+body {
+    background: #dad8bd;
+}
+
+
+h1,
+h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Container for flexboxes */
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Create 2 equal columns */
+.column {
+    flex: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+}
