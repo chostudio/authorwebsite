@@ -30,11 +30,30 @@ p {
     display: inline-block;
     text-decoration: none;
     border-radius: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
-a:hover,
-a:active {
+.bn:hover,
+.bn:active {
     background-color: #417863;
+}
+
+.am {
+    background-color: #164EB4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.am:hover,
+.am:active {
+    background-color: #215fd0;
 }
 
 /* Container for flexboxes */
