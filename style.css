@@ -8,9 +8,14 @@ body {
     background: #dad8bd;
 }
 
-h1,
+h1 {
+    font-family: 'EB Garamond', serif;
+    padding-left: 20px;
+}
+
 h2 {
     font-family: 'EB Garamond', serif;
+    margin: 0px;
 }
 
 p {
@@ -20,12 +25,11 @@ p {
 .bn {
     background-color: #366251;
     color: white;
-    outline: #366251;
     padding: 14px 25px;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 a:hover,
