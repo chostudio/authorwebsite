@@ -8,7 +8,6 @@ body {
     background: #dad8bd;
 }
 
-
 h1,
 h2 {
     font-family: 'EB Garamond', serif;
@@ -18,7 +17,21 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.bn {
+    background-color: #366251;
+    color: white;
+    outline: #366251;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+}
 
+a:hover,
+a:active {
+    background-color: #417863;
+}
 
 /* Container for flexboxes */
 .row {
