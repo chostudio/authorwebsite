@@ -58,7 +58,6 @@ p {
 
 /* Container for flexboxes */
 .row {
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
