@@ -8,22 +8,39 @@ body {
     background: #dad8bd;
 }
 
+#splashSection {
+    height: 400px;
+    width: auto;
+}
+
+#welcome {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 200px;
+}
+
 h1 {
     font-family: 'EB Garamond', serif;
     padding-left: 20px;
+    font-size: 50px;
 }
 
 h2 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond',
+        serif;
+    font-size: 40px;
     margin: 0px;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
-#welcome {
-    font-size: 50px;
+.tagline {
+    margin-left: 20px;
+    font-size: 25px;
 }
 
 .bn {
@@ -74,7 +91,7 @@ p {
     box-sizing: border-box;
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* On screens that are 800px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
     .row {
         flex-direction: column;
