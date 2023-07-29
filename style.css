@@ -1,28 +1,55 @@
 html {
-    width: 100%;
-    height: 100%;
-    overflow-x: 0;
+    height: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background: #dad8bd;
+    width: 100%;
+    background: #fffccf;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-y: hidden;
 }
 
 #splashSection {
     height: 400px;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
+#bgImage {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    background-image: url("bookshelfImage.jpg");
+}
+
+
 #welcome {
+    margin: 0;
+    padding: 20px;
     font-size: 70px;
     text-align: center;
-    margin-top: 200px;
+    padding-top: 200px;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #welcome {
+        font-size: 10vw;
+    }
 }
 
 h1 {
     font-family: 'EB Garamond', serif;
     padding-left: 20px;
     font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -41,6 +68,8 @@ p {
 .tagline {
     margin-left: 20px;
     font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .bn {
@@ -50,7 +79,7 @@ p {
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-right: 10px;
     font-family: 'Roboto', sans-serif;
 }
@@ -67,7 +96,7 @@ p {
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-right: 10px;
     font-family: 'Roboto', sans-serif;
 }
@@ -88,6 +117,8 @@ p {
 .column {
     flex: 50%;
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
 }
 
