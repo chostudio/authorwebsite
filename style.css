@@ -1,5 +1,4 @@
 html {
-    height: auto;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -7,15 +6,15 @@ html {
 
 body {
     width: 100%;
-    background: #fffccf;
+    background: #e0d3af;
     margin: 0;
     padding: 0;
-    height: auto;
     overflow-y: hidden;
 }
 
 #splashSection {
-    height: 400px;
+    overflow-y: hidden;
+    height: 500px;
     width: auto;
     margin: 0;
     padding: 0;
@@ -24,8 +23,10 @@ body {
 #bgImage {
     margin: 0;
     padding: 0;
-    height: 80vh;
-    background-image: url("bookshelfImage.jpg");
+    height: auto;
+    background-image:url("bookshelfImage.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 
@@ -36,6 +37,7 @@ body {
     text-align: center;
     padding-top: 200px;
     color: white;
+    text-shadow: 3px 3px 9px black, 3px 3px 20px black, 3px 3px 30px black;
 }
 
 @media screen and (max-width: 800px) {
@@ -46,7 +48,6 @@ body {
 
 h1 {
     font-family: 'EB Garamond', serif;
-    padding-left: 20px;
     font-size: 50px;
     text-align: center;
     margin-bottom: 0px;
@@ -65,45 +66,19 @@ p {
     line-height: 1.5;
 }
 
+.bookImage {
+    width: 60%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .tagline {
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 25px;
     text-align: center;
     margin-top: 10px;
-}
-
-.bn {
-    background-color: #366251;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-right: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.bn:hover,
-.bn:active {
-    background-color: #417863;
-}
-
-.am {
-    background-color: #164EB4;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-right: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.am:hover,
-.am:active {
-    background-color: #215fd0;
 }
 
 /* Container for flexboxes */
@@ -123,7 +98,7 @@ p {
 }
 
 /* On screens that are 800px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .row {
         flex-direction: column;
     }
