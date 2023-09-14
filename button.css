@@ -104,3 +104,27 @@
 .pushable:focus:not(:focus-visible) {
     outline: none;
 }
+
+.emailFront {
+    background: #bb001b;
+}
+
+.emailEdge {
+    background: linear-gradient(to left,
+            #41020c 0%,
+            #5f0413 8%,
+            #5f0413 92%,
+            #41020c 100%);
+}
+
+.liFront {
+    background: #0077b5;
+}
+
+.liEdge {
+    background: linear-gradient(to left,
+            #052537 0%,
+            #083a55 8%,
+            #083a55 92%,
+            #052537 100%);
+}
