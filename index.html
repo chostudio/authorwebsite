@@ -19,103 +19,141 @@ github.com/chostudio
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+    <!-- favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffd500">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                Chris Ho
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="#elementumAcademy">Elementum Academy</a>
+            <a href="#about" >About</a>
+            <a href="#contact" >Contact</a>
+        </div>
+    </div>
+
     <section id="bgImage">
         <section id="splashSection">
             <h1 id="welcome">Welcome to the bookshelf of Chris Ho</h1>
         </section>
     </section>
 
-    <h1>Elementum Academy</h1>
+    <h1 id="elementumAcademy">Elementum Academy</h1>
     <p class="tagline">Quadrilogy fantasy series about four students that attend an elemental school.</p>
 
     <div class="row">
         <div class="column">
-            <img loading="lazy" src="EAelectricity.png" alt="Elementum Academy: Electricity Book Cover"
-                class="bookImage">
+            <div class="row"><img loading="lazy" src="EAelectricity.png" alt="Elementum Academy: Electricity Book Cover"
+                    class="bookImage"></div>
+            <div class="row">
+                <h2>Electricity</h2>
+                <p>A clever student finds himself admitted into a prestigious academy for elemental powers. There's only
+                    one
+                    problem: Zapp has no idea how to unlock his power. He'll have to rely on his wits to survive in the
+                    BadgeBattle,
+                    an annual schoolwide battle royale match where the top students compete for a coveted prize.
+                </p>
+                <p>With a
+                    fighting
+                    tournament in lieu of finals, a campus filled with secret passageways, and a graduation requirement
+                    of
+                    defeating
+                    a professor from each of the four Elemental Houses, Elementum Academy is a one-of-a-kind
+                    institution.
+                    But
+                    when
+                    Zapp uncovers a dark secret that threatens to overthrow the academy, he'll have to ask himself what
+                    it
+                    really
+                    means to have powers.
+                </p>
+                <a href="https://www.amazon.com/dp/B0CHL9TL6Y" target="_blank" class="buttonLink">
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge amEdge"></span>
+                        <span class="front amFront">
+                            Amazon
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #ffffff
+                                    }
+                                </style>
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
+                <a href="https://www.barnesandnoble.com/w/elementum-academy-chris-ho/1142608026" target="_blank"
+                    class="buttonLink">
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge bnEdge"></span>
+                        <span class="front bnFront">
+                            Barnes&Noble
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #ffffff
+                                    }
+                                </style>
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
+            </div>
         </div>
 
         <div class="column">
-            <h2>Electricity</h2>
-            <p>A clever student finds himself admitted into a prestigious academy for elemental powers. There's only one
-                problem: Zapp has no idea how to unlock his power. He'll have to rely on his wits to survive in the
-                BadgeBattle,
-                an annual schoolwide battle royale match where the top students compete for a coveted prize.
-            </p>
-            <p>With a
-                fighting
-                tournament in lieu of finals, a campus filled with secret passageways, and a graduation requirement of
-                defeating
-                a professor from each of the four Elemental Houses, Elementum Academy is a one-of-a-kind institution.
-                But
-                when
-                Zapp uncovers a dark secret that threatens to overthrow the academy, he'll have to ask himself what it
-                really
-                means to have powers.
-            </p>
-            <a href="https://www.amazon.com/dp/B0CHL9TL6Y" target="_blank"
-                class="buttonLink">
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge amEdge"></span>
-                    <span class="front amFront">
-                        Amazon
-                        <svg xmlns="http://www.w3.org/2000/svg" height="15px"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                svg {
-                                    fill: #ffffff
-                                }
-                            </style>
-                            <path
-                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                        </svg>
-                    </span>
-                </button>
-            </a>
-            <a href="https://www.barnesandnoble.com/w/elementum-academy-chris-ho/1142608026" target="_blank"
-                class="buttonLink">
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge bnEdge"></span>
-                    <span class="front bnFront">
-                        Barnes&Noble
-                        <svg xmlns="http://www.w3.org/2000/svg" height="15px"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                svg {
-                                    fill: #ffffff
-                                }
-                            </style>
-                            <path
-                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                        </svg>
-                    </span>
-                </button>
-            </a>
 
-
-        </div>
-
-        <div class="column">
             <!-- img of secret rectangular question mark cover -->
             <img loading="lazy" src="questionMark.png" alt="Question Mark Unrevealed Book Cover" class="bookImage">
+
+            <h2>Fire</h2>
+            <p>???</p>
+
         </div>
 
-        <div class="column">
-            <h2>Fire</h2>
-            <p>Coming soon...</p>
-        </div>
     </div>
 
-    
+
+    <!-- the cardslinger gamble -->
+    <!-- <h1>The Cardslinger Gamble</h1>
+    <p class="tagline">A hustler with the ability to magically control cards finds himself with a massive debt to pay off and decides to become the .</p> -->
+
+    <!-- img of secret rectangular question mark cover -->
+    <!-- <img loading="lazy" src="questionMark.png" alt="Question Mark Unrevealed Book Cover" class="bookImage"> -->
     <!-- <h1>???</h1>
     <div class="row">
         <div class="column"> -->
-            <!-- img of secret rectangular question mark cover -->
-            <!-- <img loading="lazy" src="questionMark.png" alt="Question Mark Unrevealed Book Cover" class="bookImage">
+    <!-- img of secret rectangular question mark cover -->
+    <!-- <img loading="lazy" src="questionMark.png" alt="Question Mark Unrevealed Book Cover" class="bookImage">
         </div>
 
         <div class="column">
@@ -124,65 +162,81 @@ github.com/chostudio
         </div>
     </div> -->
 
-    <!-- about the author and contact are next to each other-->
-    <div class="row">
-        <div class="column">
-            <h1>About the Author</h1>
-            <p>Chris Ho is a computer science major at Oregon State University that enjoys writing action-packed fantasy
-                and
-                sci-fi
-                stories. He hopes to become a software engineer in the future. He is also interested in video game
-                development,
-                3D
-                modeling,
-                trivia, and trying to write ambidextrously. His first novel is Elementum Academy: Electricity.</p>
-        </div>
-        <div class="column">
-            <h1>Contact</h1>
-            <p>wfwef </p>
-            <a href="mailto:authorchrisho@gmail.com" target="_blank" class="buttonLink">
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge emailEdge"></span>
-                    <span class="front emailFront">
-                        Email
-                        <svg xmlns="http://www.w3.org/2000/svg" height="15px"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                svg {
-                                    fill: #ffffff
-                                }
-                            </style>
-                            <path
-                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                        </svg>
-                    </span>
-                </button>
-            </a>
-            <a href="https://www.linkedin.com/in/chris-ho-/" target="_blank" class="buttonLink">
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge liEdge"></span>
-                    <span class="front liFront">
-                        Linkedin
-                        <svg xmlns="http://www.w3.org/2000/svg" height="15px"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                svg {
-                                    fill: #ffffff
-                                }
-                            </style>
-                            <path
-                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                        </svg>
-                    </span>
-                </button>
-            </a>
-        </div>
-    </div>
-
     <footer>
-
+        <!-- about the author and contact are next to each other-->
+        <div class="row">
+            <div class="column">
+                <h1 id="about">About the Author</h1>
+                <p>Chris Ho is a computer science major at Oregon State University that enjoys writing action-packed
+                    fantasy
+                    and
+                    sci-fi
+                    stories. He hopes to become a software engineer in the future. He is also interested in
+                    3D
+                    modeling,
+                    trivia, and trying to write ambidextrously. His first novel is Elementum Academy: Electricity.</p>
+            </div>
+            <div class="column">
+                <h1 id="contact" style="padding-bottom: 20px;">Contact</h1>
+                <a href="mailto:authorchrisho@gmail.com" target="_blank" class="buttonLink">
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge emailEdge"></span>
+                        <span class="front emailFront">
+                            Email
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #ffffff
+                                    }
+                                </style>
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/in/chris-ho-/" target="_blank" class="buttonLink">
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge liEdge"></span>
+                        <span class="front liFront">
+                            Linkedin
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #ffffff
+                                    }
+                                </style>
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
+                <a href="https://www.tiktok.com/@authorchrisho" target="_blank" class="buttonLink">
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge tiktokEdge"></span>
+                        <span class="front tiktokFront">
+                            TikTok
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #ffffff
+                                    }
+                                </style>
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </div>
     </footer>
     <script src="app.js"></script>
 </body>
